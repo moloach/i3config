@@ -10,9 +10,3 @@
 # ignore
 !.gitignore
 
-#包含目录
-!/i3/
-!./*i3status/
-!./rofi/
-!./fish/
-!./alacritty/
