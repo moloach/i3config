@@ -71,6 +71,8 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id rofi -show drun -theme fancy
 
 
+# Lock screen
+bindsym $mod+Shift+l exec --no-startup-id i3lock
 
 # change focus
 bindsym $mod+j focus left

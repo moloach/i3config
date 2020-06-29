@@ -1,0 +1,11 @@
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+replace-with = 'ustc'
+
+[source.ustc]
+registry = "http://mirrors.ustc.edu.cn/crates.io-index"
+
+
+[http]
+proxy = "http://10.134.149.32:8118"
+check-revoke = false
