@@ -7,5 +7,5 @@ registry = "http://mirrors.ustc.edu.cn/crates.io-index"
 
 
 [http]
-proxy = "http://10.134.149.32:8118"
+proxy = "10.134.149.32:8118"
 check-revoke = false
