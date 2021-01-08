@@ -26,6 +26,9 @@ pacman -S i3-gaps polybar alacritty picom feh rofi nautilus volumeicon xflux  ra
 # 输入法 #fcitx-googlepinyin
 pacman -S fcitx-im fcitx-configtool fcitx-sougoupinyin 
 
+# 磁盘 (smartctl --all <you-devices>)
+pacman -S smartmontools
+ 
 cat >> ~/.bashrc << EOF
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
