@@ -130,6 +130,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# audio setting
+bindsym $mod+F9 exec amixer sset Master 10%-
+bindsym $mod+F10 exec amixer sset Master 10%+
+bindsym $mod+F8 exec amixer sset Master 0%
+
+# backlight settinga(背光)
+# need xorg-xbacklight it doesn't work in desktop
+bindsym $mod+F6 exec xbacklight - 10
+bindsym $mod+F7 exec xbacklight + 10
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
