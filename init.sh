@@ -13,7 +13,7 @@ EOF
 # xorg et.
 pacman -S xorg-server xorg-xinit firefox  git  xrandr
 
-# fonts 
+# fonts
 pacman -S wqy-microhei ttf-font-awesome ttf-liberation wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji
 yay -S siji-git -y
 
@@ -21,14 +21,14 @@ yay -S siji-git -y
 yay -S alsa-utils light pactl NetworkManager
 
 # i3 and some useful softwares
-pacman -S i3-gaps polybar alacritty picom feh rofi nautilus volumeicon xflux  ranger
+pacman -S i3-gaps polybar alacritty picom feh rofi nautilus volumeicon xflux ranger zathura zathura-pdf-mupdf
 
 # 输入法 #fcitx-googlepinyin
-pacman -S fcitx-im fcitx-configtool fcitx-sougoupinyin 
+pacman -S fcitx-im fcitx-configtool fcitx-sougoupinyin
 
 # 磁盘 (smartctl --all <you-devices>)
 pacman -S smartmontools
- 
+
 cat >> ~/.bashrc << EOF
 export LANG=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
@@ -42,7 +42,7 @@ draw_line
 # copy my person config to .config dir
 git clone https://github.com/moloach/i3config ~/.config
 
-# configure 
+# configure
 cd ~/.config
 
 
