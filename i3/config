@@ -12,10 +12,17 @@
 set $mod Mod4
 
 # windows setting
-new_window none
-new_float normal
-hide_edge_borders both
 
+# https://i3wm.org/docs/userguide.html#default_border
+#new_window none
+#new_float normal
+#hide_edge_borders both
+
+#Hide window title bar
+# The same as default_border none
+default_border pixel 0
+default_floating_border pixel 1
+for_window [class="^.*"] border pixel 1
 
 gaps inner 8
 gaps outer 6
