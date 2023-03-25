@@ -11,7 +11,7 @@ EOF
 #feh --randomize --bg-fill ~/Pictures/DesktopBackground
 
 # xorg et.
-pacman -S xorg-server xorg-xinit firefox  git  xrandr
+pacman -S xorg-server xorg-xinit firefox  git  xorg-xrandr
 
 # fonts
 pacman -S wqy-microhei ttf-font-awesome ttf-liberation wqy-zenhei noto-fonts noto-fonts-cjk noto-fonts-emoji
