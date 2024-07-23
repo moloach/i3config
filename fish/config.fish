@@ -1,6 +1,6 @@
-source $HOME/.cargo/env
+#source $HOME/.cargo/env
 set PATH /home/moloach/.dotnet $PATH
-set PATH /home/moloach/.local/bin $PATH
+#set PATH /home/moloach/.local/bin $PATH
 
 
 # pyenv init

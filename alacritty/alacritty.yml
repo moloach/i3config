@@ -68,6 +68,9 @@ window:
   # Window class (Linux only):
   #class: Alacritty
 
+
+  opacity: 0.9
+
 scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
@@ -75,7 +78,7 @@ scrolling:
 
   # Number of lines the viewport will move for every line scrolled when
   # scrollback is enabled (history > 0).
-  multiplier: 3
+  #multiplier: 3
 
   # Faux Scrolling
   #
@@ -104,7 +107,8 @@ font:
     #   - (macOS) Menlo
     #   - (Linux) monospace
     #   - (Windows) Consolas
-    family: Source Code Pro
+    #family: Source Code Pro
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -115,7 +119,8 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Source Code Pro
+    #family: Source Code Pro
+    family: JetBrains Mono
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -161,7 +166,7 @@ font:
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  use_thin_strokes: true
+  #use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
@@ -331,8 +336,8 @@ bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-window:
-  opacity: 0.9
+#window:
+#  opacity: 0.9
 
 # Mouse bindings
 #
@@ -443,7 +448,7 @@ working_directory: None
 enable_experimental_conpty_backend: false
 
 # Send ESC (\x1b) before characters when alt is pressed.
-alt_send_esc: true
+#alt_send_esc: true
 
 debug:
   # Display the time it takes to redraw each frame.
